@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.caixa-1 {
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    background-color: #307FE2;
+    overflow: hidden;
+}
+
+.caixa-2 {
+    position: absolute;
+    width: 990px;
+    height: 990px;
+    top: 50px;
+    left: 40px;
+    background-color: #0B5ABD;
+}
+
+.lateral.lateral-esquerda {
+    position: relative;
+    width: 450px;
+    height: 100%;
+    float: left;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 215px;
+    font-weight: 900;
+    font-size: 8em;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    color: white;
+    z-index: 1;
+}
+
+
+h2 { 
+    position: absolute;
+    top: 630px;
+    right: 0px;
+    width: 320px;
+    text-shadow: 4px 3px rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: right;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    position: absolute;
+    right: 0px;
+    bottom: 290px;
+    width: 350px;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+
+p { 
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    width: 340px;
+    font-size: 1.2em;
+    text-align: right;
+    font-weight: 200;
+    color: white;
+} 
+
+
+.lateral.lateral-direita {
+    position: relative;
+    float: right;
+    width: 520px;
+    height: 100%;
+}
+
+.caixa-imagem img {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    height: 535px;
+    width: 430px;
+    border: 14px solid #F2B025;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.borda-superior {
+    position: absolute;
+    bottom: 0px;
+    background-color: #F2B025;
+    width: 100%;
+    height: 15px;
+}
+
+.borda-inferior {
+    position: absolute;
+    top: 0px;
+    background-color: #F2B025;
+    width: 100%;
+    height: 15px;
+}
+
+.imagem-lateral {
+    position: absolute;
+    width: 958px;
+    height: 880px;
+    top: 500px;
+    left: 535px;
+}
+
+.setinha-1 {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 200px;
+    height: 125px;
+}
+
+.setinha-2 {
+    position: absolute;
+    left: 245px;
+    top: 45px;
+    width: 60px;
+    height: 60px;
+}
