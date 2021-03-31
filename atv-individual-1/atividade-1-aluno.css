@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.texto {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.caixa-1 {
+  margin: 50px auto 0px auto;
+  width: 700px;
+  height: 700px;
+  max-height: 700px;
+  max-width: 700px;
+  background-color: #307fe2;
+
+  display: flex;
+
+  overflow: hidden;
+}
+
+.caixa-2 {
+  height: 90%;
+  width: 90%;
+  background-color: #0b5abd;
+
+  position: relative;
+  top: 35px;
+  left: 35px;
+
+  display: flex;
+}
+
+.lateral {
+  width: 315px;
+  height: 100%;
+}
+
+.lateral-esquerda {
+  z-index: 100;
+}
+
+.lateral-direita {
+  z-index: 50;
+}
+
+.borda-laranja {
+  height: 20px;
+  background-color: #f2b025;
+  width: 100%;
+}
+
+.borda-superior {
+  width: 95%;
+  position: relative;
+  left: 332px;
+}
+
+.grande {
+  position: relative;
+  display: flex;
+}
+
+.seta-1 {
+  width: 100px;
+  position: relative;
+  top: 25px;
+}
+
+.seta-2 {
+  position: absolute;
+  top: 8px;
+  left: 208px;
+}
+
+.welcome-message {
+  line-break: anywhere;
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  width: 190px;
+  position: relative;
+  top: -26px;
+  left: 97px;
+  text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.nome {
+  text-transform: uppercase;
+  text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+  text-align: right;
+
+  position: relative;
+  top: -12px;
+}
+
+.nome-aluno {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.profissao-aluno {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.pequeno {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  top: 15px;
+}
+
+.pequeno-text {
+  width: 250px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.caixa-imagem {
+  position: relative;
+  top: 84px;
+  left: 17px;
+}
+
+.border {
+  border: 10px solid #f2b025;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.borda-inferior {
+  position: relative;
+  right: 315px;
+  bottom: -240px;
+  background-color: #f2b025;
+}
+
+.imagem-lateral {
+  display: flex;
+  position: relative;
+  left: -260px;
+  bottom: -335px;
+  z-index: 1000;
+}
