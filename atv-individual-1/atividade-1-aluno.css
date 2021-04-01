@@ -36,6 +36,11 @@ body{
     margin: 0;
     font-size: 8rem;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    word-break: break-all;
+}
+.texto-grande{
+    width: 350px;
+    height: 400px;
     position: absolute;
     top: 107px;
     left: 220px;
