@@ -6,8 +6,8 @@ Iremos trabalhar com a sequência de trabalhos postados via este repositório.
 
 Abaixo temos uma lista com todas as atividades que irão ocorrer, segue:
 
-1. [Atividade Individual 1] (https://github.com/awescolar/estudos-web/issues/1);
-2. [Atividade Individual 2] (https://github.com/awescolar/estudos-web/issues/2);
+1. [Atividade Individual 1](https://github.com/awescolar/estudos-web/issues/1);
+2. [Atividade Individual 2](https://github.com/awescolar/estudos-web/issues/2);
 3. [Atividade Grupal 1](https://github.com/awescolar/estudos-web/issues/3);
 4. Desafio 1 - Desktop;
 5. Atividade Individual 3;
