@@ -15,3 +15,9 @@ Abaixo temos uma lista com todas as atividades que irão ocorrer, segue:
 7. Atividade Grupal 2;
 8. Desafio 2 - Mobile;
 9. Grande Desafio (montagem de um projeto completo)
+
+
+### Entregas confirmadas
+| Aluno        | Atividade           | Entrega Realizada  |
+| ------------- |:-------------:| -----:|
+| Andreza Gabriely      | Individual 1 | Sim - no Prazo |
