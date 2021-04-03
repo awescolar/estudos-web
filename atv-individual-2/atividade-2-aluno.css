@@ -1,28 +1,135 @@
-/** configurações gerais */
-body{}
 
+body{
+     margin: 0;
+    padding: 0;
+}
+.container{
+    /*usei a imagem de backgroud porque não sabia posicionar as setas*/
+    width: 1440px;
+    height: 1024px;
+    background: url(images/layout-de-referencia.jpg);
+    font-family: 'Lato', 'serif';
+    font-weight: 100;
+    color: #c0d1e3;
+    z-index: -2;  
+}
+.relativo{
+    position: relative;
+}
+.tamanho{
+    width: 1230px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+#header{
+    width: 1330px;
+    height: 150px;
+    margin: 0 auto;  
+}
 
-  /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
-
-
-
-  /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
-
-
-
-  /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
-
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
-
-#footer .etapa.briefing{}
+.link-logo img{
+    margin-top: 20px;
+}
+#main{
+    height: 465px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.titulos{
+    height: 60px;
+    justify-content: space-between;
+}
+.titulo{
+    font-size: 1.6rem;
+    margin: 0;
+    
+}
+.titulo::after{
+    content: '';
+    display: block;
+    width: 160px;
+    height:1px ;
+    background-color: #3a71a9;
+}
+.titulo-1::before{
+    position: relative;
+    top: 37px;
+    content: '';
+    display: block;
+    width: 120px;
+    height:1px ;
+    background-color: #3a71a9;
+}
+.titulo-2::before{
+    position: relative;
+    top: 37px;
+    left: 40px;
+    content: '';
+    display: block;
+    width: 120px;
+    height:1px ;
+    background-color: #3a71a9;
+}
+.info{
+    width: 33.3333%;
+    height: 100%;
+}
+.img-comp{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-comp img{
+    width: 100%;
+    height: auto;
+}
+.info-main{
+    padding-left: 35px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+.info-main img{
+    float: left;
+}
+#design {
+    bottom: 20px;
+    left: 10px;
+    float: left; 
+}
+#texto-info{
+    margin-top: 105px;
+}
+#footer{
+    height: 348px;
+    justify-content: space-between;   
+}
+.etapa{
+    width: 280px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.briefing p{
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+.etapa p{
+    font-size: 1.22rem;
+    text-align: center;
+}
+.grad{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    z-index: -1;   
+}
+.grad-1{
+    bottom: 0;
+    background: linear-gradient(0deg, rgb(1, 78, 155) 1%, rgba(0,0,0,0) 100%);
+}
+.grad-2{
+    top: 0;
+    background: linear-gradient(180deg, rgb(1, 72, 143) 1%, rgba(0,0,0,0) 100%);
+}
