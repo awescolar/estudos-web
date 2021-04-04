@@ -1,28 +1,242 @@
 /** configurações gerais */
-body{}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-family: "Lato", sans-serif;
+}
+
+.container{
+  position: relative;
+  height: 1024px;
+  width: 1440px;
+
+  background: #01498f
+}
 
 
   /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+#header{
+  height: 103px;
+  width: 100%;
 
+  background: linear-gradient(#01498f, #014D99);
+
+  position: relative;
+}
+
+#header .link-logo{
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
 
 
   /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
+#main{
+  position: relative;
+
+  height: 547px;
+  width: 100%;
+
+}
 
 
+#main #computador{
+  position: absolute;
+
+  height: 464px;
+  width: 458px;
+
+  top: 91px;
+  left: 464px;
+
+}
+
+#main #caixa-texto{
+  position: absolute;
+
+  height: 128px;
+  width: 341px;
+
+  left: 976px;
+  top: 145px;
+
+  font-size: 21px;
+  line-height: 31.5px;
+}
+#main #design{
+  position: absolute;
+
+  left: 1015px;
+  top: 304px;
+
+  font-size: 24px;
+  
+}
+
+p{
+  font-weight: lighter;
+  color: #fff;
+}
+
+strong{
+  font-weight: bold;
+}
+
+#main #seta{
+  position: absolute;
+
+  top: 295px;
+  left: 975px;
+}
+
+.seta-esq{
+  position: absolute;
+  
+  top: 340px;
+  left: 180px;
+
+  opacity: 0.25;
+}
+
+.seta-dir{
+  position: absolute;
+  
+  top: 310px;
+  right: 55px;
+
+  opacity: 0.25;
+}
 
   /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
+#footer{
+  height: 376px;
+  width: 100%;
+  
+  position: relative;
+  background: linear-gradient( #01498F, #013a73);
 
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
+}
 
-#footer .etapa.briefing{}
+#footer .dev{
+  height: 180px;
+  width: 200px;
+  
+  position: absolute;
+  top: 80px;
+  left: 157px;
+
+  align-items: center;
+}
+
+#footer #texto-dev{
+  height: 57px;
+  width: 244px;
+
+  position: absolute;
+  top: 280px;
+  left: 139px;
+
+  line-height: 19.2px;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+  
+
+}
+
+#footer .etapa-dev{
+  position: absolute;
+  top: 0;
+  left: 126px;
+
+  font-size: 21px;
+  
+
+}
+
+#footer .etapa-dev::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  height: 1px;
+  width: 133px;
+
+  background-color: #8c919e
+
+}
+
+#footer .etapa-dev::after{
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: 0;
+
+  height: 1px;
+  width: 103px;
+  
+  background-color:  #8c919e
+}
+
+#footer .briefing{
+  height: 155,29px;
+  width: 250px;
+  
+  position: absolute;
+  top: 110px;
+  left: 1075px;
+}
+
+#footer #texto-planejamento{
+  height: 57px;
+  width: 220px;
+  
+  line-height: 19.2px;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+
+  position: absolute;
+  top: 290px;
+  left: 1080px;
+  
+}
+
+#footer .etapa-planejamento{
+  position: absolute;
+  top: 0;
+  left: 1173px;
+
+  font-size: 21px;
+
+}
+#footer .etapa-planejamento::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  height: 1px;
+  width: 133px;
+  
+  background-color:  #8c919e
+
+}
+
+#footer .etapa-planejamento::after{
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: 30px;
+
+  height: 1px;
+  width: 103px;
+  
+  background-color:  #8c919e
+}
