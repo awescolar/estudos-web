@@ -51,15 +51,15 @@ body {
 }
 
 #main .container-interno .caixa-texto {
-position: absolute;
-left: 68%;
-right: 8%;
-top: 24%;
-bottom: 63%;
-color: #fff;
-font-weight: 300;
-font-size: 21px;
-line-height: 150%;
+  position: absolute;
+  left: 68%;
+  right: 8%;
+  top: 24%;
+  bottom: 63%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 150%;
 
 }
 
