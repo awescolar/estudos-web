@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Quadrado-Grande{
+    background-color: #307FE2; 
+    width: 700PX;
+    height: 700px;
+    position: absolute;
+    margin: auto;
+    z-index: 0;
+    padding: 40px 40px 40px 40px;
+}
+.Quadrado-Pequeno{
+    background-color: #0B5ABD;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+}
+.Borda-LateralDireita{
+    background-color:#F2B025;
+    width: 350px;
+    height: 15px;
+    margin-left: auto;
+    
+}
+.seta1{
+    padding-top: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.seta2{
+    padding-left: 200px;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.TextoGrande{
+    font-size: 80px;
+    padding-left: 180px;
+    padding-top: 3px;
+    position:absolute;
+    color: #FFF;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2.5px 2.5px 2.5px#888888;
+    font-weight: 1000;
+    
+}
+.foto{
+    padding-left: 345px;
+    padding-top: 115px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.TextoMedio{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 93px;
+    padding-top: 400px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2.5px 2.5px 2.5px #888888;
+    font-weight: 450;
+}
+.TextoPequeno{
+    position: absolute;
+    font-size: 13px;
+    padding-left: 80px;
+    padding-top: 500px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.Borda-LateralEsquerda{
+    background-color:#F2B025;
+    width: 350px;
+    height: 15px;
+    margin-bottom: auto;
+    position:relative;
+    top:190px;
+}
+.seta3{
+    position: absolute;
+    margin-bottom: auto;
+    padding-top: 305px;
+    padding-left: 348px;
+    z-index: 2;
+    overflow: hidden;
+    height: 420px;
+    width: 392px;
+}
+.fundo{
+    background-color: #F2B025;
+    width: 301px;
+    height: 361px;
+    position: absolute;
+    z-index: 0  ;
+    margin-top: 105px;
+    margin-left: 335px;
+    border: 10px solid #F2B025;
+}
