@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.caixa-1{
+    background-color: #307FE2; 
+    height: 600px;
+    width: 600px;
+    position: absolute;
+}
+
+.caixa-2{
+    width: 564px;
+    height: 564px;
+    background: #0B5ABD;
+    margin-top: 18px;
+    margin-left: 18px;
+    position: relative;
+}
+
+.imagem-lateral {
+    position: relative;
+    max-width: 308px;
+    height: 485px;
+    overflow: hidden;
+    right: -292px;
+    bottom: 467px;
+
+  }
+  .imagem-lateral img {
+    position: absolute;
+    left: 90%;
+    top: 85%;
+    height: 120%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  
+  .imagem-lateral img.portrait {
+    width: 100%;
+    height: auto;
+  }
+
+.lateral-esquerda{
+    width: 45%;
+    height: 554px;
+    float: left;
+    border-bottom: 10px solid #F2B025;
+}
+
+.texto-grande {
+    position:absolute;
+    top:70px;
+    left:170px;
+    
+    text-transform: uppercase;
+    font-size:2em;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.4);
+    margin:0;
+    z-index:1;
+    font-weight: 900;
+}
+
+.texto-grande p{
+    margin: -3px;
+}
+
+.texto-nome{
+    margin-top: 150px;
+}
+
+.nome{
+    font-weight: 800;
+    font-size: 1rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 350px;
+    left: 95px;
+    text-shadow: 2px 2px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.especialidade{
+    font-weight: 300;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 373px;
+    left: 123px;
+    text-shadow: 2px 2px rgb(0 0 0 / 40%);
+}
+
+.texto-pequeno {
+    font-weight: 500;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 430px;
+    left: 87px;
+    text-shadow: 2px 2px rgb(0 0 0 / 40%);
+    max-width: 181px;
+}
+
+.lateral-direita{
+    width: 55%;
+    height: 554px;
+    float: left;
+    border-top: 10px solid #F2B025;
+}
+
+.caixa-imagem img{
+    width: 230px;
+    border: 10px solid #F2B025;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px rgb(59 59 59);
+    right: 36px;
+    position: absolute;
+}
+
+.seta-1 img{
+    width: 80px;
+    float: left;
+    margin-top: 40px;
+}
+
+.seta-2 img {
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+}

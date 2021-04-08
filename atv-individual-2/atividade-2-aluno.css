@@ -1,28 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /** configurações gerais */
-body{}
+*{
+  border: 1px solid black;
 
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #014A8F;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
 
   /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+#header{
+  width: auto;
+  height: 70px;
 
+  background: #00468C;
+}
+#header .link-logo{
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+#header .link-logo .logo{
 
+}
 
   /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
+#main{
+}
+#main div{
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+}
+
+#main .texto-main{
+  width: 275px;
+  margin-top: 300px;
+  margin-left: 55px;
+}
+
+#main .img-computador{
+  margin-top: 140px;
+}
+#main .container-interno .caixa-texto{
+
+}
 
 
 
   /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
+#footer{
 
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
+}
+#footer .etapa{
 
-#footer .etapa.briefing{}
+}
+
+#footer .etapa.dev{
+
+}
+#footer .etapa.dev::before{
+
+}
+#footer .etapa.dev::after{
+
+}
+
+#footer .etapa.briefing{
+
+}
