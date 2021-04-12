@@ -1,20 +1,74 @@
-/** configurações gerais */
-body{}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+.rodape-amarelo {
+    background-color: #FFC82C;
+    width: 1440px;
+    height: 146px;
+    position: absolute;
+    top: 3458px;
+}
 
-  /** configurações da header */
-#header{}
+/*Configuração das partes da logo do instagram localizada no rodapé*/
 
+.logo-parte1 {
+    position: absolute;
+    width: 20px;
+    height: 19.99px;
+    left: 671px;
+    top: 33px;
+}
 
+.logo-parte2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 677px;
+    top: 39px;
+}
 
-  /** configurações do conteudo principal */
-#main{}
-#main .content{}
-#main .content.atividades{}
-#main .content.noticias{}
-#main .content.divisor{}
+.logo-parte3 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 684px;
+    top: 36px;
+}
 
+/*Configuração do texto do rodapé*/
 
+.rodape-amarelo span {
+    position: absolute;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    width: 80px;
+    height: 16px;
+    left: 700px;
+    top: 34px;
 
-  /** configurações do conteudo rodapé */
-#footer{}
+    font-family: Lato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #224586;
+    border-bottom: 0.8px solid #224586;
+}
+
+.rodape-amarelo p{
+    position: absolute;
+    width: 209px;
+    height: 38px;
+    left: 624px;
+    top: 75px;
+    color: #224586;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
