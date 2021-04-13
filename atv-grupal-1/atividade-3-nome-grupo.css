@@ -1,18 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 /** configurações gerais */
-body{}
+body{
+  background: #2648A1;
+  
+}
 
 
   /** configurações da header */
-#header{}
+#header{
+  width: 1440px;
+  height: 103px;
+  background: linear-gradient(180deg, #014180 0%, rgba(1, 77, 153, 0.43) 100%);
 
+}
+#header .logo{
+  position: absolute;
+  top: 23px;
+  left: 52px;
+}
+#header .menu{
+  position: absolute;
+  top: 38px;
+  right: 53px;
+}
 
 
   /** configurações do conteudo principal */
-#main{}
-#main .content{}
-#main .content.atividades{}
-#main .content.noticias{}
-#main .content.divisor{}
+#main .foto-background01{
+  position: absolute;
+  width: 572.32px;
+  height: 598.94px;
+  left: 1012.13px;
+  top: 815.84px;
+}
 
 
 
