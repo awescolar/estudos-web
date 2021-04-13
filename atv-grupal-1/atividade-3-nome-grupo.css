@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-* {
-  padding: 0px;
-  margin: 0px;
-}
+
 /*Configuração do tamanho, background, posição e cor do rodapé azul*/
 .rodapé-azul {
   position: absolute;
