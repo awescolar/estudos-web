@@ -1,28 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /** configurações gerais */
-body{}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
 
+.body-content {
+  width: 1050px;
+  height: 800px;
+  background-color: #01498f;
+  position: absolute;
+  overflow: hidden;
+  top: 10px;
+  left: 10px;
+}
+/** configurações da header */
+#header {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #014180 0%, rgba(1, 77, 153, 0.43) 100%);
+}
+#header .link-logo {
+  height: 50px;
+  position: relative;
+  top: 23px;
+  left: 40px;
+}
+/* #header .link-logo .logo{} */
 
-  /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+/** configurações do conteudo principal */
+#main {
+  margin-top: 35px;
+}
+#main .container-interno {
+  width: 100%;
+  position: absolute;
+}
+#main .container-interno .img-seta-1 {
+  height: 350px;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  opacity: 0.60;
+  
+}
+#main .container-interno .img-seta-2 {
+  height:600px;
+  position: absolute;
+  top: 30px;
+  left: 650px;
+  transform: rotate(130deg);
+  opacity: 0.60;
+}
+#main .container-interno .img-computador {
+  height:300px;
+  position: relative;
+  left: 340px;
+}
+#main .container-interno .caixa-texto {
+  font-weight: 400;
+  width: 250px;
+  color: white;
+  position: relative;
+  left: 680px;
+  top: -270px;
+}
 
+#main .container-interno .caixa-texto-seta {
+  height: 27px;
+  margin-top: 20px;
+}
 
+#main .container-interno .design-hash {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 10px;
+  position: relative;
+  left: 25px;
+  top: -40px;
+}
 
-  /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
+/** configurações do conteudo rodapé */
+#footer {
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(180deg, #01498F 0%, #013A73 100%);
+}
 
+#footer .etapa {
+  width: 50%;
+}
 
+#footer .dev {
+  position: relative;
+  left: 50px;
+  bottom: 35px;
+  color: white;
+}
 
-  /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
+#footer .dev .bar-1 {
+  width: 135px;
+  height: 1px;
+  background-color: #e5e9f2;
+}
 
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
+#footer .dev .bar-2 {
+  width: 135px;
+  height: 1px;
+  background-color: #e5e9f2;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  width: 103px;
+}
 
-#footer .etapa.briefing{}
+#footer .dev .img-dev {
+  width: 200px;
+  position: relative;
+  left: 25px;
+}
+
+#footer .dev .text-dev {
+  text-align: center;
+  position: relative;
+  left: 8px;
+  margin-top: 10px;
+  font-weight: 400;
+  width: 250px;
+}
+
+#footer .briefing {
+  position: relative;
+  right: -200px;
+  bottom: 20px;
+  color: white;
+}
+
+#footer .briefing .bar-1 {
+  width: 135px;
+  height: 1px;
+  background-color: #e5e9f2;
+  position: relative;
+  top: -10px;
+  left: 78px;
+}
+
+#footer .briefing .bar-2 {
+  width: 135px;
+  height: 1px;
+  background-color: #e5e9f2;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  width: 103px;
+  position: relative;
+  top: -10px;
+  left: 110px;
+}
+
+#footer .briefing .img-briefing {
+  position: relative;
+  width: 250px;
+  right: 25px;
+}
+
+#footer .briefing .text-briefing {
+  text-align: center;
+  position: relative;
+  right: 28px;
+  margin-top: 10px;
+  font-weight: 400;
+  width: 250px;
+}
