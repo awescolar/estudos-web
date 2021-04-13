@@ -394,3 +394,111 @@ justify-content: space-between;
     font-size: 16px;
     text-align: center;
 }
+
+/*Configuração do tamanho, background, posição e cor do rodapé azul*/
+.rodapé-azul {
+  position: absolute;
+  top: 3300px;
+  width: 1440px;
+  height: 526px;
+  background-color: #1B3373;
+  color: #FFF;
+}
+/*Configuração do texto principal do rodapé azul*/
+.texto-rodapé-azul {
+  position: absolute;
+  width: 400px;
+  height: 163px;
+  left: 218px;
+  top: 49px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 160%;
+}
+
+.texto-rodapé-azul span {
+  color: #FFC460;
+}
+
+.bold {
+  font-weight: bold;
+}
+/*Configuração da área de contato do rodapé azul*/
+.contatos {
+  position: absolute;
+  top: 235px;
+  left: 218px;
+  color: #FEFEFE;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.contatos p{
+  margin-bottom: 35px;
+  color: #FFF;
+  font-weight: 500;
+}
+/*Configuração do endereçono rodapé azul*/
+.endereço {
+  position: absolute;
+  width: 322px;
+  height: 100px;
+  left: 559px;
+  top: 235px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.endereço p {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.endereço span {
+  font-weight: 400;
+}
+
+/*Configuração da área de móídias sociais do rodapé azul*/
+
+.midias-sociais span{
+  position: absolute;
+  width: 205px;
+  height: 22px;
+  left: 983px;
+  top: 235px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+#logo1 {
+  position: absolute;
+  top: 277px;
+  left: 985px;
+}
+
+#logo2 {
+  position: absolute;
+  top: 277px;
+  left: 1034px;
+}
+
+#logo3 {
+  position: absolute;
+  top: 277px;
+  left: 1082px;
+}
