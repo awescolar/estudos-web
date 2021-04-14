@@ -1,20 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 /** configurações gerais */
-body{}
 
+body{
+  width: 1440px;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 
-  /** configurações da header */
-#header{}
+}
 
+/** configurações da header */
 
+#header{
+  width: 1440px;
+  height: 103px;
+  background: linear-gradient(to bottom, #014180 , #014d99)
+}
 
-  /** configurações do conteudo principal */
-#main{}
-#main .content{}
-#main .content.atividades{}
-#main .content.noticias{}
-#main .content.divisor{}
+#header .logo{
+  position: absolute;
+  top: 23px;
+  left: 52px;
+}
 
+#header .menu{
+  position: absolute;
+  top: 38px;
+  left: 1360px;
+}
 
+/*Configuração do background e das setas de background*/
 
-  /** configurações do conteudo rodapé */
+#main {
+  width: 1440px;
+  height: 3355px;
+}
+
+.foto-background01{
+  position: absolute;
+  width: 572.32px;
+  height: 598.94px;
+  left: 868px;
+  top: 113px;
+}
+
+.foto-background02 {
+  position: absolute;
+  width: 440.04px;
+  height: 598.94px;
+  top: 639px;
+}
+
+.foto-background03 {
+  position: absolute;
+  width: 572.32px;
+  height: 598.94px;
+  left: 868.13px;
+  top: 1189px;
+}
+
+/*Configuração do conteúdo principal*/
+
+/*Atividades*/
+
+.content-atividades {
+  width: 1440px;
+  height: 2019px;
+  background-color: #2648A1;
+}
+
+/* _em nossas atividades Pesquisamos e aplicamos tendências nos nossos projetos. */
+#primeiro-texto {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff83;
+
+  position: absolute;
+  width: 650px;
+  left: 277px;
+  top: 226px;
+}
+
+#primeiro-texto p {
+  font-size: 28px;
+  margin: 25px 0px;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+#primeiro-texto span {
+  color: #FFC82C;
+}
+
+/* Projetamos para web #que tal desenvolver sua próxima página conosco?*/
+#segundo-texto {
+  position: absolute;
+  top: 606px;
+  left: 222px;
+  text-align: right;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 100;
+
+}
+
+#segundo-texto span {
+  font-size: 16px;
+  color: #ffffffcc;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 24px;
+}
+
+.texto-fino {
+  font-weight: 100;
+}
+
+.titulo {
+  font-size: 28px;
+}
+
+#segundo-texto a {
+  margin-top: 25px;
+  display: block;
+  color: #FFFFFF;
+}
+
+/*Fazemos código outsourcing #do que você precisa?*/
+
+#terceiro-texto {
+  position: absolute;
+  top: 1140px;
+  left: 700px;
+  text-align: left;
+  width: 400px;
+  font-size: 20px;
+}
+
+#terceiro-texto span {
+  font-size: 16px;
+  color: #ffffffcc;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 24px;
+}
+
+#terceiro-texto a {
+  margin-top: 25px;
+  display: block;
+  color: #FFFFFF;
+}
+
+/*Ampliamos habilidades #que habilidade é importante para você?*/
+
+#quarto-texto {
+  position: absolute;
+  top: 1680px;
+  left: 222px;
+  text-align: left; 
+  width: 400px;
+  font-size: 20px;
+}
+
+#quarto-texto span {
+  font-size: 16px;
+  color: #ffffffcc;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 24px;
+}
+
+#quarto-texto a {
+  margin-top: 25px;
+  display: block;
+  color: #FFFFFF;
+}
+
+#quarto-texto .hashtags {
+  margin-top: 25px;
+}
+
+#quarto-texto .texto-fino {
+  color: #ffffff9c;
+}
+
+/*imagens da área de atividades*/
+
+#imagem1 {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+
+#imagem2 {
+  position: absolute;
+  top: 1055px;
+  left: 125px;
+}
+
+#imagem3 {
+  position: absolute; 
+  top: 1600px;
+  left: 650px;
+}
+
+/*Linha amarela divisora*/
+
+#main #linha-amarela {
+  width: 1440px;
+  height: 13px;
+  background: linear-gradient(90deg, #FFC82C 0%, rgba(255, 200, 44, 0) 95.63%);
+}
+
+/*Divisão do conteúdo principal*/
+
+#main .content-divisor {
+  width: 1440px;
+  height: 206px;
+  background: linear-gradient(to bottom, #212F8C, #1E3980, #1B3373);
+}
+
+.content-divisor div {
+  position: relative;
+  left: 222px;
+  top: 46px;
+}
+
+.content-divisor {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+}
+
+.content-divisor p {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 10px 0px;
+}
+
+/*Área de notícias*/
+
+/** configurações do conteudo rodapé */
 #footer{}
