@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 *{
   margin: 0px;
@@ -7,7 +8,6 @@
 }
 
 /** configurações gerais */
-
 body{
   width: 1440px;
   color: #FFFFFF;
@@ -447,3 +447,147 @@ body{
 }
 
 /** configurações do conteudo rodapé */
+
+#footer {
+  width: 1440px;
+  height: 667px;
+  background: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+}
+
+.retangulo-amarelo {
+  width: 1440px;
+  height: 146px;
+  background: #FFC82C;
+}
+
+.retangulo-azul {
+  width: 1440px;
+  height: 526px;
+  background: #224586;
+}
+
+.awescolar {
+  position: absolute;
+  width: 80px;
+  height: 16px;
+  left: 685px;
+  top: 3493px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #224586;
+}
+
+.texto-1 {
+  display: block;
+  width: 205px;
+  font-style: italic;
+  font-weight: 300;
+  color: #224586;
+
+  position: absolute;
+  left: 618px;
+  top: 3526px;
+}
+
+.insta {
+  position: relative;
+  top: 33px;
+  left: 655px;
+}
+
+/*Configuração do texto principal do rodapé azul*/
+.texto-rodapé-azul {
+  position: relative;
+  width: 400px;
+  height: 163px;
+  left: 218px;
+  top: 194px;
+
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 160%;
+}
+
+.texto-rodapé-azul span {
+  color: #FFC460;
+}
+
+.bold {
+  font-weight: bold;
+}
+/*Configuração da área de contato do rodapé azul*/
+.contatos {
+  position: relative;
+  top: 192px;
+  left: 218px;
+  color: #FEFEFE;
+
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.contatos p{
+  margin-bottom: 35px;
+  color: #FFF;
+  font-weight: 500;
+}
+/*Configuração do endereçono rodapé azul*/
+.endereço {
+  position: absolute;
+  width: 322px;
+  height: 100px;
+  left: 559px;
+  top: 3838px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.endereço p {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.endereço span {
+  font-weight: 400;
+}
+
+/*Configuração da área de móídias sociais do rodapé azul*/
+
+.midias-sociais span{
+  position: relative;
+  width: 205px;
+  height: 22px;
+  left: 983px;
+  top: 4px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+#logo1 {
+  position: absolute;
+  top: 3880px;
+  left: 985px;
+}
+
+#logo2 {
+  position: absolute;
+  top: 3880px;
+  left: 1034px;
+}
+
+#logo3 {
+  position: absolute;
+  top: 3880px;
+  left: 1082px;
+}
