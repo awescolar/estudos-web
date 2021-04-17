@@ -1,28 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 /** configurações gerais */
-body{}
-
-
+body{
+  
+  color: #FFF;
+  font-family: 'Lato',sans-serif;
+  font-weight: 110;
+}
   /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+.header{
+  width: auto;
+  height: 70px;
+  background: #014A8F;
+  height: 104px;
+}
+.back{
+  background: #014A8F;
+  height: 104px;
+  width: 1440px;
+  z-index: 1;
+}
+.link-logo{
+  position: absolute;
+  left: 60px;
+  top:40px;
+}
+#header .link-logo .logo{
 
-
-
+}
   /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
-
-
-
+#main{
+  background: #014A8F;
+  height:1000px;
+  width: 1440px;
+  z-index: 0;
+  position: absolute;
+  
+}
+#main .container-interno{
+ 
+}
+#main img{
+  margin-top: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+main .caixa-texto p{
+  margin-left: 1010px;
+  font-size: 21px;
+  padding-top: 150px;
+  position: absolute;
+  line-height: 150%;
+}
+.Design{
+  position: absolute;
+  margin-left: 1060PX;
+  top:307px;
+  font-size: 24px;
+}
+.caixa-texto{ 
+}
+.seta{
+  margin-top: 325px;
+  float: left;
+  padding-left: 1020px;
+  position: absolute;
+}
+.seta-1{
+  position: absolute;
+  margin-left: 200px;
+  float: left;
+  opacity: 60%;
+}
+.seta-2{
+  transform:rotate(140deg);
+  position: absolute;
+  float: left;
+  left: 900px;
+  opacity:60%;
+}
   /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
+.dev{
+  position: absolute;
+  padding-left: 100px;
+  top: 780px;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: left;
 
-#footer .etapa.dev{}
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 240px;
+}
+.a{
+  text-align: left;
+  
+  z-index: 2;
+}
+.b{
+  text-align: left;
+  z-index: 2;
+}
 #footer .etapa.dev::before{}
 #footer .etapa.dev::after{}
 
-#footer .etapa.briefing{}
+.corno{
+  left: 74.65%;
+  right: 7.99%;
+  top: 73.54%;
+  bottom: 11.3%;
+
+}
+
