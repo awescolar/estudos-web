@@ -1,28 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 /** configurações gerais */
-body{}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
 
 
   /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+header{
+  width: 1440px;
+  height: 103px;
+  background: #014180;
+}
+
+header img{
+  margin-top: 23px;
+  margin-left:53px;
+}
 
 
 
   /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
+main{
+  width:1440px;
+  height: 921px;
+  background: #01498F  ;
+}
 
+.vetor1{
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  opacity: 30%;
+}
 
+.vetor2{
+  position: absolute;
+  left: 963px;
+  top: 300px;
+  opacity: 30%;
+}
 
-  /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
+.comp{
+  position: absolute;
+  top: 192px;
+  left: 462px;
+}
 
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
+.boxtexto{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 248px;
+  left: 950px;
+}
 
-#footer .etapa.briefing{}
+.boxtexto1{
+  font-family: Lato;
+  font-size: 21px;
+  line-height: 150%;
+  text-align: left;
+  display: block;
+  width: 371px;
+  font-weight: 700;
+  
+}
+
+.parte{
+  display: block;
+  color: #BFD1E3
+}
+
+.boxtexto p{
+  color: #FFF;
+  display: block;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.boxtexto img{
+  position: absolute;
+  left: 10px;
+  top: 140px;
+}
+
+.dev{
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top: 540px;
+  left: 126px;
+}
+
+.dev p{
+  color: #F9FAFC;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  position: absolute;
+  top: -25px;
+}
+
+.traço1{
+  width: 140px;
+  height: 1px;
+  background: #E5E9F2;
+  position: absolute;
+  top: 25px;
+  opacity: 40%;
+}
+
+.traço2{
+  width: 103px;
+  height: 1px;
+  background: #E5E9F2;
+  position: absolute;
+  top: 35px;
+  opacity: 40%;
+}
+
+.dev2{
+  height: 300px;
+  width: 250px; 
+  position: relative;
+  top: 571px;
+  left: 157px;
+}
+
+.dev2 p{
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+  display: block;
+  width: 240px;
+  font-weight: 700;
+  color: #BFD1E3;
+  text-align: center;
+  position: relative;
+  right:20px;
+}
+
+.dev2 img{
+  left: 20px;
+}
+
+.planejamento{
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top: 200px;
+  left: 1173px;
+}
+
+.planejamento p{
+  color: #F9FAFC;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  position: absolute;
+  top: -25px;
+}
+
+.traço3{
+  width: 140px;
+  height: 1px;
+  background: #E5E9F2;
+  position: absolute;
+  top: 25px;
+  opacity: 40%;
+}
+
+.traço4{
+  width: 103px;
+  height: 1px;
+  background: #E5E9F2;
+  position: absolute;
+  top: 35px;
+  opacity: 40%;
+}
+
+.planejamento2{
+  height: 300px;
+  width: 250px; 
+  position: relative;
+  top: 250px;
+  left: 1100px;
+}
+
+.planejamento2 p{
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+  display: block;
+  width: 220px;
+  font-weight: 700;
+  color: #BFD1E3;
+  text-align: center;
+  position: relative;
+  left: 20px;
+}

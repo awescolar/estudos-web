@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Configuração Header*/
+header {
+    width: 100%;
+    height: 560px;
+    background-color: #213F54;
+} 
+
+main img {
+    display: none;
+}
+
+.background-header {
+    background-image: url(Imagens/Background-header-mobile.png);
+    width: 414px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.menu-desktop{
+    display: none;
+}
+
+/**Configuração Nav-Bar*/
+.nav-bar{
+    width: 392px;
+    height: 16px;
+    position: relative;
+    top: 79px;
+}
+
+.lupa{
+    position: relative;
+    left: 315px;
+}
+
+.menu-mobile{
+    position: relative;
+    left: 34px;
+}
+
+/*Configuração TextoHeader*/
+
+.texto-header{
+    background: #FFF;
+    width: 390px;
+    height: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    top: 200px;
+    opacity: 80%;
+}
+
+.texto-header h1{
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    font-size: 28px;
+
+    display: block;
+    position: relative;
+    left: 32px;
+    top: 32px;
+}
+
+.texto-header p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+    width: 360px;
+
+    display: block;
+    position: relative;
+    left: 15px;
+    top: 42px;
+}
+
+.texto-header a{
+    display: none;
+}
+
+.vermais{
+    width: 99px;
+    height: 34px;
+    background: #293B47;
+    box-shadow: 0px 1.90099px 1.90099px rgba(0, 0, 0, 0.25);
+    border-radius: 8.55446px;
+    position: relative;
+    left: 280px;
+    top:50px;
+    box-sizing: border-box;
+
+    color: #FFF;
+    text-align: center;
+    padding-top:8px ;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.divisão{
+    width: 100%;
+    height: 16px;
+    background: #293B47;
+}
