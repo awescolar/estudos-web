@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rosarivo:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image:url(img/fundo-jornal.jpeg)
+    
+}
+
+body{
+    background: #F8DDA8;
+
+}
+
+.flex{
+    display: flex;
+}
+/*pagina de carregamento*/
+.load{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+.cont-preLoad{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.cont-preLoad span{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.5rem;
+    color:#1ED760 ;
+    text-shadow: 0 0 25px #1ED760;
+}
+.preLoad{
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgba(255, 255, 255, 0.192);
+    border-radius: 50%;
+    border-left: 8px solid #1ED760;
+    position: absolute; 
+    animation: preLoader 1s infinite linear;
+}
+@keyframes preLoader{
+    0%{
+        transform: rotatez(0deg);
+    }
+    100% {
+        transform: rotatez(360deg);
+    }
+}
+/*esqueleto para posicionar*/
+.active-SM .menu li:nth-child(3):after{
+    margin-top: 40px;
+}
+.active-SM .social-medias{
+    opacity: 1;
+    top: 300px;
+    z-index: 0;
+}
+.show-menu nav{
+    right: 0;
+}
+.show-menu .hamburguer{
+    margin: 10px;
+    top: 0;
+}
+.show-menu .line2{
+    opacity: 0;
+    
+}
+.show-menu .line1{
+    transform: rotate(45deg) translate(.2rem, .5rem);
+}
+.show-menu .line3{
+    transform: rotate(-45deg) translate(.2rem, -.6rem);
+}
+
+.container{
+    position: relative;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    min-width: 1200px;
+}
+header,footer{
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+/* 
+header{
+    position: fixed;
+} */
+/*estilo do reader*/
+.header {
+    position: relative;
+    align-items: center;
+    width: 1200px;
+    min-height: 150px; 
+    transition: all 1s;
+}
+.header img {
+    margin-right: 15px;
+    position: absolute;
+}
+.nome-grupo {
+    margin: auto auto;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+.nome-grupo a{
+    text-decoration: none;
+    color: #c7d0d8;
+}
+.hamburguer{
+    width: 30px;
+    height: 25px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 60px;
+    cursor: pointer;
+    z-index: 20;
+    position: fixed;
+    top:60px;
+    right: 0;
+    transition: all 1s;
+}
+nav{
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(19, 18, 18);
+    position: fixed;
+    top: 0;
+    right: -350px;
+    z-index: 6;
+    transition: right 1s;
+}
+nav .menu{
+    list-style: none;
+    margin: 100px 0 0 20px;
+    
+}
+nav .menu li{
+   margin-bottom:40px;
+   text-transform: uppercase;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1.5rem;
+   color: white;
+   cursor: pointer;
+   
+}
+nav .menu li:nth-child(1):after {
+    content: "";
+    margin-top: 10px;
+    width: 100px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.445);
+    display: block;
+}
+nav .menu li:nth-child(2):after {
+    content: "";
+    margin-top: 10px;
+    width: 150px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.445);
+    display: block;
+}
+nav .menu li:nth-child(3):after {
+    content: "";
+    margin-top: 10px;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.445);
+    display: block;
+    transition: all 0.5s;
+}
+
+.social-medias {
+    margin-left: 20px;
+    position: absolute;
+    top: 275px;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+nav a:hover{
+    color: #1ED760;
+}
+nav .menu li:hover{
+    color: #1ED760;
+}
+.social-medias li{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-left: 18px;
+
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+nav .folha{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+nav .naurus{
+    margin: 80px 0 0 120px;
+}
+.hamburguer .line{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(163, 159, 159);
+    box-shadow: 4px 2px 3px rgba(0, 0, 0,0.7);
+    transition: all 1s;
+}
+/*estilo do main*/
+.main {
+    width: 1200px;
+    min-height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+/*estilo do footer*/
+.footer {
+    width: 1200px;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+}
