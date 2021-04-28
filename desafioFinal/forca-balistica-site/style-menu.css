@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: absolute;
+}
+
+h2 {
+    color: #000;
+    font-weight: normal;
+    font-family: 'Poor Story', cursive;
+    font-size: 23px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    
+}
+
+.container-menu{
+    position: absolute;
+    width: 414px;
+    height: 203px;
+    display: flex;
+    background: #85F053;
+    
+}
+
+#main .inicio{
+    position: absolute;
+    top: 26px;
+    left: 41px;
+}
+
+#main .linha{
+    position: absolute;
+    width: 368px;
+    height: 0px;
+    left: 31px;
+    top: 61px;
+
+    border: 1px solid #000000;
+}
+
+#main .produtos{
+    position: absolute;
+    top: 68px;
+    left: 41px;
+}
+
+#main .linha2{
+    position: absolute;
+    width: 368px;
+    height: 0px;
+    left: 31px;
+    top: 101px;
+
+    border: 1px solid #000000;
+}
+
+#main .quem{
+    position: absolute;
+    top: 110px;
+    left: 41px;
+}
+
+#main .linha3{
+    position: absolute;
+    width: 368px;
+    height: 0px;
+    left: 31px;
+    top: 141px;
+
+    border: 1px solid #000000;
+}
+
+#main .midias{
+    position: absolute;
+    top: 152px;
+    left: 41px;
+}
+
+#main .linha4{
+    position: absolute;
+    width: 368px;
+    height: 0px;
+    left: 31px;
+    top: 183px;
+
+    border: 1px solid #000000;
+}
+
+#main a{
+    font-style: none;
+    text-decoration: none;
+}
+h2:hover{
+    color: #FF9A2D;
+    
+}
+
+

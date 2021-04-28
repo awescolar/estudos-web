@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: absolute;
+}
+
+h2 {
+    color: #FF9A2D;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-carrinho{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    display: flex;
+    background: #FF9A2D;
+}
+
+header {
+    position: absolute;
+    width: 414px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+#header-carrinho .voltar img{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 16px;
+    top: 19px;
+    
+}
+
+#header-carrinho .logo-carrinho img{
+    position: absolute;
+    width: 89px;
+    height: 82px;
+    left: 162px;
+    top: 5px;
+    
+}
+
+.carrinho2 {
+    position: relative;
+    width: 66px;
+    height: 68px;
+    left: 174px;
+    top: 120px;
+}
+
+.carrinho2 img{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    position: absolute;
+    width: 414px;
+    height: 662px;
+    left: 0px;
+    top: 202px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+#main .caixa{
+    position: absolute;
+    width: 211px;
+    height: 55px;
+    left: 102px;
+    top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#main .flex{
+    display: flex;
+    width: 384px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#main .flex span{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+#main .posicao-preco1{
+    position: absolute;
+    top: 80px;
+}
+
+#main .prod1::after{
+    content: '';
+    width: 15px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+}
+
+#main .prod2::after{
+    content: '';
+    width: 15px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+    left: 95px;
+}
+
+#main .posicao-preco2{
+    position: absolute;
+    top: 120px;
+}
+
+#main .posicao-preco3{
+    position: absolute;
+    top: 160px;
+}
+
+#main .linha {
+    position: absolute;
+    width: 380px;
+    height: 0px;
+    left: 13px;
+    top: 220px;
+
+    border: 1px solid #000000;
+}
+
+#main .posicao-subtotal{
+    position: absolute;
+    top: 240px;
+}
+
+#main .sub::after{
+    content: '';
+    width: 15px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+    left: 200px;
+}
+
+#main .endereco{
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 128px;
+    top: 320px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+#main .end{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#main .posicao-endereco{
+    position: relative;
+    top: 400px;
+    left: 16px;
+}
+
+#main .botao{
+    width: 240px;
+    height: 79px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .botao a{
+    font-style: none;
+    text-decoration: none;
+    color: #ff9f26;
+    
+}
+
+#main .posicao-botao{
+    position: relative;
+    top: 440px;
+    left: 86px;
+}

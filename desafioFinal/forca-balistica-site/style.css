@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    
+}
+
+h2 {
+    color: #FF9A2D;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    position: relative;
+    width: 414px;
+    height: 3581px;
+    background-color: #fff;
+    display: flex;
+    
+}
+
+header{
+    position: fixed;
+    width: 414px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    background: #85F053;
+
+}
+
+#header .carrinho img{
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    left: 365px;
+    top: 26px;
+
+    background: url(carrinho.png);
+
+}
+    
+#header .traco-1{
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    left: 26px;
+    top: 34px;
+
+    background: #000000;
+}
+
+#header .traco-2{
+    position: absolute;
+    width: 24px;
+    height: 5px;
+    left: 26px;
+    top: 45px;
+
+    background: #000000;
+}
+
+#header .logo-safra img{
+    position: absolute;
+    width: 230px;
+    height: 207px;
+    left: 90px;
+    top: -5px;
+
+    background: url(logo-safra.png);
+    
+}
+
+#main {
+    position: absolute;
+    width: 251px;
+    height: 25px;
+    left: 87px;
+    top: 160px;
+
+}
+
+#main .slogan {
+    position: relative;
+    width: 220px;
+    height: 25px;
+    top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    left: 17px;
+    
+}
+
+#main .plantacao {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    top: 63px;
+}
+#main .plantacao img{
+    width: 100%;
+    height: 100%;
+
+}
+#main .destaque {
+    position: relative;
+    top: 130px;
+}
+
+#main .adubo {
+    position: relative;
+    width: 146px;
+    height: 225px;
+    top: 161px;
+    left: 57px;
+}
+#main .adubo img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .formatacao-titulos{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+#main .posicao1 {
+    position: relative;
+    top: 181px;
+}
+
+#main .formatacao-comentario{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao-comentario{
+    position: relative;
+    top: 185px;
+}
+#main .formatacao-valor{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    opacity: 80%;
+}
+#main .posicao-valor{
+    position: relative;
+    top: 190px;
+}
+
+#main .botao{
+    width: 87px;
+    height: 32px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .botao a{
+    font-style: none;
+    text-decoration: none;
+    color: #ff9f26;
+    
+}
+
+#main .posicao-botao{
+    position: relative;
+    top: 200px;
+    left: 83px;
+}
+
+#main .bolsa {
+    position: absolute;
+    width: 357px;
+    height: 342px;
+    left: -140px;
+    top: 120px;
+    
+}
+
+#main .bolsa img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .formatacao-titulos2 {
+    width: 262px;
+    height: 34px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#main .posicao2 {
+    position: absolute;
+    top: 465px;
+}
+
+#main .formatacao-comentario2 {
+    width: 148px;
+    height: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao-comentario2 {
+    position: absolute;
+    top: 505px;
+}
+
+#main .formatacao-valor2 {
+    width: 77px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    opacity: 80%;
+}
+
+#main .posicao-valor2{
+    position: absolute;
+    top: 520px;
+}
+
+#main .botao2{
+    width: 87px;
+    height: 32px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main .posicao-botao2{
+    position: absolute;
+    top: 553px;
+    left: 0px;
+}
+
+#main .cartela {
+    position: absolute;
+    width: 211px;
+    height: 287px;
+    left: -60px;
+    top: 650px;
+}
+
+#main .cartela img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .formatacao-titulos3 {
+    width: 262px;
+    height: 47px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao3 {
+    position: absolute;
+    top: 950px;
+}
+
+#main .formatacao-comentario3 {
+    width: 91px;
+    height: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao-comentario3 {
+    position: absolute;
+    top: 990px;
+}
+
+#main .formatacao-valor3 {
+    width: 76px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    opacity: 80%;
+}
+
+#main .posicao-valor3 {
+    position: absolute;
+    top: 1006px;
+}
+
+#main .botao3 {
+    width: 87px;
+    height: 32px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .posicao-botao3 {
+    position: absolute;
+    top: 1038px;
+    left: 0px;
+}
+
+#main .guardanapo {
+    position: absolute;
+    width: 251px;
+    height: 250px;
+    left: -70px;
+    top: 1135px;
+}
+
+#main .guardanapo img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .formatacao-titulos4 {
+    width: 274px;
+    height: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao4{
+    position: absolute;
+    top: 1400px;
+}
+
+#main .formatacao-comentario4 {
+    width: 148px;
+    height: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao-comentario4 {
+    position: absolute;
+    top: 1420px;
+}
+
+#main .formatacao-valor4{
+    width: 154px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    opacity: 80%;
+}
+
+#main .posicao-valor4{
+    position: absolute;
+    top: 1440px;
+}
+
+#main .botao4 {
+    width: 87px;
+    height: 32px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .posicao-botao4{
+    position: absolute;
+    top: 1470px;
+    left: 0px;
+}
+
+#main .lampada {
+    position: absolute;
+    width: 239.07px;
+    height: 250px;
+    left: -70px;
+    top: 1550px;
+}
+
+#main .lampada img{
+    width: 100%;
+    height: 100%;
+}
+
+#main .formatacao-titulos5 {
+    width: 249px;
+    height: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao5 {
+    position: absolute;
+    top: 1810px;
+
+}
+
+#main .formatacao-comentario5{
+    width: 124px;
+    height: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+#main .posicao-comentario5 {
+    position: absolute;
+    top: 1830px;
+}
+
+#main .formatacao-valor5{
+    width: 74px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    opacity: 80%;
+}
+
+#main .posicao-valor5 {
+    position: absolute;
+    top: 1848px;
+
+}
+
+#main .botao5 {
+    width: 87px;
+    height: 32px;
+    background-color: #ededed;
+    border-radius: 20px;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .posicao-botao5{
+    position: absolute;
+    top: 1878px;
+    left: 0px;
+}
+
+#main .quem-somos h2{
+    position: absolute;
+    width: 198px;
+    height: 32px;
+    left: -60px;
+    top: 2000px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+#main .quem-somos p{
+    position: absolute;
+    width: 375px;
+    height: 259px;
+    left: -135px;
+    top: 2050px;
+
+    font-family: 'Poor Story', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.62);
+}
+
+footer{
+    position: relative;
+    width: 414px;
+    height: 91px;
+    left: 0px;
+    top: 3490px;
+
+    background: #85F053;
+}
+
+#footer .whatsapp img{
+    position: absolute;
+    width: 49px;
+    height: 36px;
+    left: 30px;
+    top: 20px;
+    background: url(wpp.png);
+}
+#footer .numero {
+    position: absolute;
+    width: 103px;
+    height: 18px;
+    font-family: 'Poor Story', cursive;
+    font-weight: normal;
+    font-size: 14px;
+    
+    color: #000000;
+}
+
+#footer .posicao-numero{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#footer .instagram img{
+    position: absolute;
+    width: 43px;
+    height: 37px;
+    right: 120px;
+    top: 17px;
+}
+
+#footer .arroba {
+    
+    width: 71px;
+    height: 16px;
+    font-family: 'Poor Story', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#footer .posicao-arroba{
+    position: absolute;
+    top: 27px;
+    right: 40px;
+}
+
+#footer .ano {
+    width: 30px;
+    height: 16px;
+    font-family: 'Poor Story', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+#footer .posicao-ano{
+    position: absolute;
+    top: 70px;
+    left: 192px;
+}
