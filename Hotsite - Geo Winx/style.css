@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Configuração do header*/
+
+header {
+    width: 100%;
+    height: 864px;
+    background-color: #213F54;
+    background-image: url(Imagens/david-cristian-vvKKnVDlQtY-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*Barra de Navegação*/
+
+.nav-bar{
+    margin-left: auto;
+    margin-right: auto;
+    width:1197px;
+    height: 40px;
+    position: relative;
+    top:64px;
+}
+
+.lupa{
+    position: relative;
+    left: 1110px;
+}
+
+/*Texto Header*/
+
+.sectionheader{
+    margin-left: auto;
+    margin-right: auto;
+    width:1197px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+.texto-header{
+    background: #FFF;
+    width: 591px;
+    height: 282px;
+    position: relative;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    left: 140px;
+    top: 200px;
+}
+
+.texto-header h1{
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    display: block;
+    position: relative;
+    left: 32px;
+    top: 32px;
+}
+
+.texto-header p{
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: justify;
+    width: 527px;
+
+    display: block;
+    position: relative;
+    left: 32px;
+    top: 42px;
+}
+
+.Vermais{
+    display: none;
+}
+
+
+.texto-header a{
+    color: #004C81;
+}
+/*Configurações de texto*/
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: medium;
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+/*Configuração das três divisões azuis*/
+
+.divisão {
+    background-color: #293B47;
+    width: 100%;
+    height: 32px;
+}
+
+/*Configurações do main*/
+
+main {
+    background-color: #EEFDFF;
+    width: 100%;
+    height: 1979px;
+}
+
+main section {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 8px solid #004C81;
+    width: 1018px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    position: relative;
+}
+
+/*Caixa de texto "O que é?"*/
+
+.sessão1 {
+    top: 128px;
+    height: 736px;
+}
+
+.sessão1 * {
+    margin-bottom: 35px;
+}
+
+.sessão1 img {
+    margin-bottom: 0px;
+}
+
+/*Caixa de texto "Qual o objetivo?*/
+
+.sessão2 {
+    top: 256px;
+    height: 859px;
+}
+
+.sessão2 * {
+    margin-bottom: 35px;
+}
+
+.imagens {
+    background-color: #154A6F;
+    width: 995px;
+    height: 690px;
+    box-sizing: border-box;
+    padding-left: 32px;
+}
+
+.imagens div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 32px;
+    margin-bottom: 0px;
+}
+
+/*Configuração da sessão "Pilares"*/
+
+.sessão3 {
+    width: 100%;
+    height: 718px;
+    background-color: #213F54;
+    background-image: url(Imagens/nuno-marques-0GbrjL3vZF4-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.sessão3 #degrade {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(10, 23, 33, 0.82) 34.56%, rgba(10, 23, 33, 0) 100%);;
+}
+
+#texto-sessão3 {
+    width: 1197px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: 64px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#texto-sessão3 h2 {
+    margin-bottom: 21px;
+}
+
+/*Configuração do carrosel*/
+
+#carrossel {
+    position: relative;
+    top: 128px;
+    width: 1205px;
+    height: 440px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carrossel div {
+    width: 387px;
+    height: 360px;
+    margin-right: 14px;
+    float: left;
+}
+
+#carrossel div h3 {
+    display: block;
+    text-align: center;
+    border-left: 5px solid #6AB3E5;
+    margin-bottom: 32px;
+
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.tópico3 {
+    margin: 0px;
+}
+
+/*Configuração do footer*/
+
+footer{
+    width:100%;
+    height:311px;
+    background: #CDE2F1;
+}
+
+.rodape{
+    position: relative;
+    width: 1197px;
+    height: 208px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 64px;
+}
+
+.parte1{
+    width: 303px;
+    height: 208px;
+    border-right: 1px solid #5B5C5E;
+    float: left;
+}
+.parte1 img{
+    margin-bottom: 30px;
+}
+
+.parte2{
+    width: 320px;
+    height: 208px;
+    border-right: 1px solid #5B5C5E;
+    margin-left: 270px;
+}
+.bolinha1{
+    width: 16px;
+    height: 32px;
+    background: #0A1721;
+    border-radius: 6px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.parte2 h3{
+    display: block;
+    position: relative;
+    left: 40px;
+    top: -18px;
+    font-family: Noto Serif;
+    font-weight: normal;
+}
+
+.parte2 p{
+    display: block;
+    position: relative;
+    left: 40px;
+    top: -8px;
+    font-family: Roboto;
+    font-weight: normal;
+    width: 268px;
+}
+
+.parte3{
+    width: 210px;
+    height: 208px;
+    border-right: 1px solid #5B5C5E;
+    left: 620px;
+    position: relative;
+    top: -208px;
+}
+
+.parte3 h3{
+    display: block;
+    top: -18px;
+    left: 10px;
+    position: relative;
+    font-family: Noto Serif;
+    font-weight: normal;
+}
+
+.parte3 span{
+    display: block;
+    top:0px;
+    left: 10px;
+    position: relative;
+    font-family: Roboto;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.parte3 p{
+    display: block;
+    top:-4px;
+    position: relative;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.bolinha2{
+    width: 16px;
+    height: 32px;
+    background: #0A1721;
+    border-radius: 6px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+}
+
+
+.parte4{
+    width: 215px;
+    height: 208px;
+    border-right: 1px solid #5B5C5E;
+    margin-left: 830px;
+    position: relative;
+    top:-415px;
+}
+
+.bolinha3{
+    width: 16px;
+    height: 32px;
+    background: #0A1721;
+    border-radius: 6px;
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+
+.parte4 h3{
+    display: block;
+    position: relative;
+    left: 40px;
+    top: -18px;
+    font-family: Noto Serif;
+    font-weight: normal;
+}
+
+.parte4 p{
+    display: block;
+    position: relative;
+    left: 40px;
+    top: -8px;
+    font-family: Roboto;
+    font-weight: normal;
+    width: 268px;
+}
+
+.parte5{
+    width: 215px;
+    height: 208px;
+    left: 1090px;
+    position: relative;
+    top:-640px;
+}
+
+.bolinha4{
+    width: 16px;
+    height: 32px;
+    background: #0A1721;
+    border-radius: 6px;
+    position: relative;
+    left: -30px;
+    top: 25px;
+}
+
+.parte5 h3{
+    display: block;
+    font-family: Noto Serif;
+    font-weight: normal;
+    top: -5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.parte5 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/*Ocultar itens do mobile*/
+
+.carrossel {
+    display: none;
+}
+
+.vermais {
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.rodape-mobile {
+    display: none;
+}
