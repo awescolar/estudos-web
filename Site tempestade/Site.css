@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 1440px;
+    height: 1662px;
+    background-color: #3F5ECE;
+}
+
+.texto1{
+    color: #EDEDED;
+    position: absolute;
+    text-align: justify;
+    font-size: 20px;
+    top: 291px;
+    left: 330px;
+    width: 620px;
+    line-height: 106%;
+}
+
+.texto1 b{
+    font-size: 36px;
+}
+
+.título1{
+    margin-left: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    top: 603px;
+    left: 730px;
+    width: 380px;
+    color: #EDEDED;
+}
+
+.texto2{
+    margin-top: 0px;
+    position: absolute;
+    text-align: justify;
+    line-height: 106%;
+    font-size: 20px;
+    top: 643px;
+    left: 730px;
+    width: 380px;
+    color: #EDEDED;
+}
+
+.título2{
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    top: 1043px;
+    left: 330px;
+    width: 380px;
+    color: #EDEDED;
+}
+
+.texto3{
+    margin-top: 0px;
+    position: absolute;
+    text-align: justify;
+    line-height: 106%;
+    font-size: 20px;
+    top: 1083px;
+    left: 330px;
+    width: 380px;
+    color: #EDEDED;
+}
+
+.link{
+    font-weight: 600;
+    color: #EDEDED;
+}
+
+.texto-rodapé{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 1518px;
+    left: 330px;
+    width: 780px;
+    color: #EDEDED;
+}
+
+.texto-rodapé p{
+    margin-top: 0px;
+}
+
+.texto-rodapé b{
+    margin-top: 0px;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 39px;
+    left: 594px;
+}
+
+.mapa-meg{
+    position: absolute;
+    top: 593px;
+    left: 310px;
+}
+
+.jogo{
+    position: absolute;
+    top: 1033px;
+    left: 720px;
+}
+
+.rosa{
+    position: absolute;
+    top: 947px;
+    left: 680px;
+}
+
+.nuvem-rodapé{
+    position: absolute;
+    top: 1341px;
+}
+
+.nuvem1{
+    position: absolute;
+    top: 278px;
+    left: 270px;
+}
+
+.nuvem2{
+    position: absolute;
+    top: 323px;
+    left: 487px;
+}
+
+.nuvem3{
+    position: absolute;
+    top: 583px;
+    left: 0px;
+}
+
+.nuvem4{
+    position: absolute;
+    right: 0px;
+    top: 534px;
+}
+
+.raio{
+    position: absolute;
+    top: 781px;
+    left: 1089px;
+}
