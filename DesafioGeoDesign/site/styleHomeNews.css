@@ -38,23 +38,23 @@
 .news-2 img{
     object-fit: cover;
     object-position: -140px ;
-     width: 600px;
-     height: auto;
-     transition: all 1s;
+    width: 600px;
+    height: auto;
+    transition: all 1s;
     }
 .news-4 img{
-object-fit: cover;
-object-position: -20px -25px;
- width: 350px;
- height: auto;
- transition: all 1s;
+    object-fit: cover;
+    object-position: -20px -25px;
+    width: 350px;
+    height: auto;
+    transition: all 1s;
 }
 .news-3 img{
     object-fit: cover;
     object-position: -30px -20px;
-     width: 430px;
-     height: auto;
-     transition: all 1s;
+    width: 430px;
+    height: auto;
+    transition: all 1s;
 }
 .news-3 img:hover{
     transform: scale(1.05);
