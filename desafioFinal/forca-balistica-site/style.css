@@ -4,7 +4,6 @@
 }
 body{
     position: absolute;
-    
 }
 
 h2 {
@@ -16,10 +15,14 @@ h2 {
     text-transform: uppercase;
 }
 
+
+
 .container{
     position: relative;
     width: 414px;
     height: 3581px;
+    top: 0px;
+    left: 0px;
     background-color: #fff;
     display: flex;
     
@@ -33,7 +36,6 @@ header{
     top: 0px;
     z-index: 99;
     background: #85F053;
-
 }
 
 #header .carrinho img{
@@ -190,16 +192,15 @@ header{
     left: 83px;
 }
 
-#main .bolsa {
+#main .palha {
     position: absolute;
-    width: 357px;
-    height: 342px;
-    left: -140px;
-    top: 120px;
-    
+    width: 309px;
+    height: 328px;
+    align-items: center;
+    top: 150px;
 }
 
-#main .bolsa img{
+#main .palha img{
     width: 100%;
     height: 100%;
 }
@@ -347,21 +348,21 @@ header{
     left: 0px;
 }
 
-#main .guardanapo {
+#main .hamburgueria {
     position: absolute;
     width: 251px;
-    height: 250px;
-    left: -70px;
-    top: 1135px;
+    height: 251px;
+    align-items: center;
+    top: 1100px;
 }
 
-#main .guardanapo img{
+#main .hamburgueria img{
     width: 100%;
     height: 100%;
 }
 
 #main .formatacao-titulos4 {
-    width: 274px;
+    width: 279px;
     height: 22px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -372,7 +373,7 @@ header{
 
 #main .posicao4{
     position: absolute;
-    top: 1400px;
+    top: 1360px;
 }
 
 #main .formatacao-comentario4 {
@@ -387,7 +388,7 @@ header{
 
 #main .posicao-comentario4 {
     position: absolute;
-    top: 1420px;
+    top: 1380px;
 }
 
 #main .formatacao-valor4{
@@ -403,7 +404,7 @@ header{
 
 #main .posicao-valor4{
     position: absolute;
-    top: 1440px;
+    top: 1400px;
 }
 
 #main .botao4 {
@@ -419,25 +420,25 @@ header{
 
 #main .posicao-botao4{
     position: absolute;
-    top: 1470px;
+    top: 1430px;
     left: 0px;
 }
 
-#main .lampada {
+#main .bambu {
     position: absolute;
-    width: 239.07px;
-    height: 250px;
-    left: -70px;
-    top: 1550px;
+    width: 259px;
+    height: 259px;
+    align-items: center;
+    top: 1530px;
 }
 
-#main .lampada img{
+#main .bambu img{
     width: 100%;
     height: 100%;
 }
 
 #main .formatacao-titulos5 {
-    width: 249px;
+    width: 288px;
     height: 22px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -448,12 +449,12 @@ header{
 
 #main .posicao5 {
     position: absolute;
-    top: 1810px;
+    top: 1800px;
 
 }
 
 #main .formatacao-comentario5{
-    width: 124px;
+    width: 172px;
     height: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -464,7 +465,7 @@ header{
 
 #main .posicao-comentario5 {
     position: absolute;
-    top: 1830px;
+    top: 1822px;
 }
 
 #main .formatacao-valor5{
@@ -480,7 +481,7 @@ header{
 
 #main .posicao-valor5 {
     position: absolute;
-    top: 1848px;
+    top: 1840px;
 
 }
 
@@ -497,8 +498,8 @@ header{
 
 #main .posicao-botao5{
     position: absolute;
-    top: 1878px;
-    left: 0px;
+    top: 1870px;
+    align-items: center;
 }
 
 #main .quem-somos h2{
@@ -519,7 +520,7 @@ header{
     position: absolute;
     width: 375px;
     height: 259px;
-    left: -135px;
+    left: -145px;
     top: 2050px;
 
     font-family: 'Poor Story', cursive;
@@ -608,3 +609,4 @@ footer{
     top: 70px;
     left: 192px;
 }
+

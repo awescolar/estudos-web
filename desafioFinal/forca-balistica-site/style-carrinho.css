@@ -5,6 +5,7 @@
 
 body{
     position: absolute;
+
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
     height: 896px;
     display: flex;
     background: #FF9A2D;
+    
 }
 
 header {

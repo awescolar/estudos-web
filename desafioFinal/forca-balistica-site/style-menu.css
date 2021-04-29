@@ -20,7 +20,7 @@ h2 {
 .container-menu{
     position: absolute;
     width: 414px;
-    height: 203px;
+    height: 275px;
     display: flex;
     background: #85F053;
     
@@ -99,4 +99,18 @@ h2:hover{
     
 }
 
+#main .logo {
+    position: absolute;
+    width: 100px;
+    height: 63.16px;
+    left: 157px;
+    top: 199px;
+    
+}
+
+#main .logo img{
+    width: 100%;
+    height: 100%;
+    
+}
 
