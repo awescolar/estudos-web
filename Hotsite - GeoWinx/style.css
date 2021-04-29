@@ -12,12 +12,15 @@
     background-color: #0B2E48;
     height: 16px;
     width: 100%;
+    min-width: 414px;
+
 }
 
 /*Configurações do header*/
 
 header {
     width: 100%;
+    min-width: 414px;
     height: 750px;
     background-color: #213F54;
 }
@@ -141,6 +144,8 @@ main {
     color: #131D24;
     background-color: #EEFDFF;
     width: 100%;
+    min-width: 414px;
+
     height: 752px;
     padding-top: 64px;
 }
@@ -187,6 +192,7 @@ main p { /*configurações específicas da tag p no main*/
 
 .background-carrossel {
     width: 100%;
+    min-width: 414px;
     height: 700px;
     background-color: #213F54;
     background-image: url(img/background-carrosel.png);
@@ -196,12 +202,13 @@ main p { /*configurações específicas da tag p no main*/
 
 .container-carrossel {
     width: 100%;
+    min-width: 414px;
     max-width: 1200px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
-    padding-top: 64px;
+    padding-top: 32px;
 }
 
 .carrossel {
@@ -212,7 +219,11 @@ main p { /*configurações específicas da tag p no main*/
 
 .carrossel .item{
     float: left;
-    margin-right: 16px;
+    margin-right: 1px;
+}
+
+.carrossel .item.a {
+    margin-left: 16px;
 }
 
 .item p{
@@ -236,6 +247,7 @@ main p { /*configurações específicas da tag p no main*/
 /*Footer*/
 footer {
     width: 100%;
+    min-width: 414px;
     height: 600px;
     background-color: #CDE2F1;
     box-sizing: border-box;
@@ -265,6 +277,7 @@ footer p {
 
 .container-rodape {
     width: 100%;
+    min-width: 414px;
     max-width: 1200px;
     height: 100%;
     margin-left: auto;
