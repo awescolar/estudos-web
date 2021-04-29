@@ -1,0 +1,498 @@
+/*Importação de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Configurações gerais*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divisão {
+    background-color: #0B2E48;
+    height: 16px;
+    width: 100%;
+}
+
+/*Configurações do header*/
+
+header {
+    width: 100%;
+    height: 750px;
+    background-color: #213F54;
+}
+
+.fundo-header {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url(img/fundo-header.png);
+}
+
+.conteudo-header { /*serve para fexar o conteúdo em no máximo 1200px e deixá-lo alinhado ao centro*/
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    box-sizing: border-box;
+    padding-top: 64px;
+}
+
+/**nav-bar*/
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar img {
+    margin-left: auto;
+    margin-right: 16px;
+    display: block;
+}
+
+/***menu hambúrguer do nav-bar*/
+
+.menu {
+    width: 50px;
+    height: 35px;
+}
+
+.menu div {
+    background-color: #0B2E48;
+    width: 100%;
+    height: 3px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.menu .a {
+    margin-top: 0px;
+}
+
+/**Texto principal na parte do header*/
+
+.texto-header {
+    width: 390px;
+    height: 300px;
+
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-top: 200px;
+}
+
+h1 { /*propriedades da tag h1 no header*/
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    display: block;
+    margin-bottom: 16px;
+
+    color: #162D3F;
+}
+
+p { /*Propriedades gerais da tag p*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #33383C;
+}
+
+.texto-header a { /*Configuração do link que será usado como botão, tanto do texto como das outras propriedades*/
+    background-color: #293B47;
+    border-radius: 9px;
+    color: #ffffff;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+
+    width: 99px;
+    height: 34px;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-decoration: none;
+    margin-top: 16px;
+}
+/*Configurações do main*/
+
+main {
+    color: #131D24;
+    background-color: #EEFDFF;
+    width: 100%;
+    height: 752px;
+    padding-top: 64px;
+}
+
+h2 {
+    font-family: Noto Serif;
+    font-weight: 600;
+    font-size: 21px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+main p { /*configurações específicas da tag p no main*/
+    color: #33383C;
+    border-left: 8px solid #004C81;
+    padding-left: 8px;
+    display: block;
+    width: 360px;
+}
+
+.box-imagem1, .box-imagem2 { /*Ocultamento das imagens que aparecem na versão desktop mas não aparecem na versão mobile*/
+    display: none;
+}
+
+.parte1, .parte2 { /*O main foi dividido em duas partes para facilitar o desenvolvimento do layout*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 392px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding-top: 32px;
+}
+
+.parte1 {
+    height: 352px;
+    margin-bottom: 32px;
+}
+
+.parte2 {
+    height: 240px;
+}
+
+/*Configurações do carrossel*/
+
+.background-carrossel {
+    width: 100%;
+    height: 700px;
+    background-color: #213F54;
+    background-image: url(img/background-carrosel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-carrossel {
+    width: 100%;
+    max-width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 64px;
+}
+
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 32px;
+}
+
+.carrossel .item{
+    float: left;
+    margin-right: 16px;
+}
+
+.item p{
+    opacity: 0%;
+}
+
+.item.d {
+    margin-left: 0px;
+}
+
+.container-carrossel p {
+    color: #ffffff;
+    margin-bottom: 64px;
+    margin-left: 16px;
+}
+
+.container-carrossel h2 {
+    color: #ffffff;
+}
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: #CDE2F1;
+    box-sizing: border-box;
+    padding-top: 32px;
+}
+
+footer h4 {
+    font-family: Noto Serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+
+    display: block;
+    border-left: 8px solid #0B2E48;
+    box-sizing: border-box;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+
+footer p {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 21px;
+
+    color: #474E54;
+}
+
+.container-rodape {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-rodape div {
+    height: 150px;
+    float: left;
+    margin-left: 8px;
+    border-radius: 0px;
+    background: none;
+    border-left: 1px solid #0B2E48;
+    padding-left: 8px;
+    width: 170px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
+
+.container-rodape img {
+    width: 150px;
+}
+
+.container-rodape .parte1 { /*partes do rodapé*/
+    border-left: none;
+    padding-left: 0px;
+}
+
+.container-rodape .parte2 {
+    margin-left: 16px;
+}
+/*Configurações das media queries*/
+
+@media (min-width: 1200px) {
+    
+    /*header*/
+    .texto-header h1 { /*Configurações específicas do h1 na versão desktop*/
+        font-family: Noto Serif;
+        font-weight: 600;
+        font-size: 64px;
+    }
+
+    p { /*A fonte dos paragrafos foi aumentada na versão desktop*/
+        font-size: 21px;
+    }
+
+    .texto-header {
+        width: 707px;
+        height: 504px;
+        border: 16px solid rgba(1, 41, 68, 0.90);
+    
+        padding-top: 47px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 85px;
+    }
+    
+    /***botão ver mais*/
+
+    .texto-header a {
+        border-radius: 12px;
+        font-size: 24px;
+
+        width: 130px;
+        height: 50px;
+        padding-top: 12px;
+        margin-top: 32px;
+    }
+
+    /*main*/
+
+    .box-imagem1, .box-imagem2 { /*Configuração das duas imagens adicionadas*/
+        display: block;
+        width: 480px;
+        height: 384px;
+        background-color: #154A6F;
+
+        box-sizing: border-box;
+        padding: 16px 17px 0px 17px;
+        border-radius: 5px;
+    }
+
+    .box-imagem1 {
+        margin-left: auto;
+    }
+
+    .box-imagem2 {
+        float: left;
+        margin-right: 125px;
+    }
+
+    /*Lembrar de ajeitar o display do p*/
+
+    main {
+        height: 1104px;
+        padding-top: 128px;
+    }
+    
+    h2 {
+        font-family: Noto Serif;
+        font-weight: 300;
+        font-size: 36px;
+        padding-left: 0px;
+        padding-bottom: 26px;
+    }
+    
+    main p {
+        color: #33383C;
+        border-left: none;
+        padding-left: 0px;
+        font-size: 18px;
+        width: 490px;
+        display: block;
+        float: left;
+    }
+    
+    .parte1, .parte2 {
+        width: 1096px;
+        background-color: #ffffff00;
+        border-radius: 9px;
+        padding-top: 0px;
+    }
+    
+    .parte1 {
+        height: 384px;
+        margin-bottom: 82px;
+    }
+    
+    .parte2 {
+        height: 401px;
+    }
+
+    .parte1 .texto {
+        float: left;
+    }
+    
+    .borda {
+        border-left: 16px solid #003D68;
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main span {
+        color: #ffffff;
+        margin-top: 16px;
+        margin-left: 16px;
+        display: block;
+
+        font-family: Noto Serif;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /*configuração do carrossel*/
+
+    .background-carrossel {
+        width: 100%;
+        height: 800px;
+        background-color: #213F54;
+        background-image: url(img/background-carrosel.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-carrossel p {
+        margin-left: 0px;
+    }
+
+    .carrossel {
+        justify-content: center;
+    }
+
+    .carrossel .item{
+        margin-right: 32px;
+    }
+
+    /*Footer*/
+
+    .container-rodape .parte1 { /*partes do rodapé*/
+        width: 260px;
+    }
+    .container-rodape .parte2 {
+        width: 230px;
+    }
+    .container-rodape .parte3 {
+        width: 210px;
+    }
+    .container-rodape .parte4 {
+        width: 165px;
+    }
+    .container-rodape .parte5 {
+        width: 190px;
+    }
+
+    footer h4 {
+        font-family: Noto Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+    
+        display: block;
+        border-left: 8px solid #0B2E48;
+        box-sizing: border-box;
+        padding-left: 8px;
+        margin-bottom: 16px;
+    }
+    
+    footer p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #474E54;
+    }
+
+    .container-rodape img {
+        width: 260px;
+    }
+
+    .container-rodape .parte2 {
+        margin-left: 0px;
+    }
+
+}
