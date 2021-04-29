@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    height: 102px;
+    background: rgb(3,140,140);
+    background: linear-gradient(90deg, rgba(3,140,140,1) 0%, rgba(2,89,89,1) 100%);
+
+}
+
+#header img {
+    position: sticky;
+    left: 50px;
+}
+
+#main {
+    background: #038C8C;
+}
+
+#main .conteudo {
+    height: 500px;
+    background: url(tirinhas/sustentabilidade.jpg)
+}
+
+#main .conteudo .texto-1 {
+    width: 555px;
+    height: 450px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+    color: #fff;
+    padding: 25px 28px;
+    border-radius: 30px;
+    background: rgb(3,140,140);
+    background: linear-gradient(0deg, rgba(3,140,140,1) 0%, rgba(3,107,107,1) 100%);
+}
+
+#main .conteudo .texto-1 p {
+    position: relative;
+    top: 20px;
+}
+
+#main .conteudo .texto-1 a {
+    position: relative;
+    top: 65px;
+    left: 130px;
+    background-color: #fff;
+    color: #025959;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}   
+
+#main .conteudo .texto-1 a:hover {
+    background-color: #025959;
+    color: #fff;
+}
+
+#main .divisor-1 {
+    height: 125px;
+}
+
+#footer {
+    height: 100px;
+    background-color: #025959;
+    color: #fff;
+}
+
+#footer p {
+    position: absolute;
+    top: 775px;
+    left: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+      width: 100%;
+    }
+    
+    #main .conteudo .texto-1 {
+      top: 30px;
+      width: 450px;
+      height: 515px;
+      background: white;
+      color: rgb(3,140,140);
+      
+    }
+    
+    #main .conteudo .texto-1 a {
+      left: 120px;
+      top: 65px;
+      padding: 10px 20px;
+    }
+    
+  }
