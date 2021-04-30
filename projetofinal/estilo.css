@@ -1,0 +1,250 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 7134px;
+    background: whitesmoke;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+
+#bloco1 {
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #008B8B;
+}
+
+.extensao1 {
+    position: absolute;
+    width: 447px;
+    height: 637px;
+    left: 150px;
+    top: 63px;
+}
+
+.extensao2 {
+    float: left;
+    position: relative;
+    width: 594px;
+    height: 664px;
+    left: 846px;
+    top: 39px;
+}
+
+#bloco3 {
+    position: absolute;
+    width: 1439px;
+    height: 2286px;
+    left: 0%;
+    top: 702px;
+    background: #008B8B;
+}
+
+.extensaoa3 {
+    position: absolute;
+    width: 444px;
+    height: 457px;
+    left: 153px;
+    top: 200px;
+}
+
+.textoa1 {
+    position: absolute;
+    width: 367px;
+    height: 74px;
+    left: 691px;
+    top: 210px;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+.textoa2 {
+    position: absolute;
+    width: 584px;
+    height: 245px;
+    left: 691px;
+    top: 330px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #F7F7F7;
+}
+
+.extensaob3 {
+    position: absolute;
+    width: 444px;
+    height: 457px;
+    left: 846px;
+    top: 900px;
+}
+
+.textob1 {
+    position: absolute;
+    width: 367px;
+    height: 74px;
+    left: 150px;
+    top: 910px;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+.textob2 {
+    position: absolute;
+    width: 587px;
+    height: 319px;
+    left: 151px;
+    top: 1030px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.extensaoc3 {
+    position: absolute;
+    width: 444px;
+    height: 457px;
+    left: 150px;
+    top: 1600px;
+}
+
+.textoc1 {
+    position: absolute;
+    width: 367px;
+    height: 74px;
+    left: 691px;
+    top: 1600px;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+
+.textoc2 {
+    position: absolute;
+    width: 583px;
+    height: 311px;
+    left: 692px;
+    top: 1720px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+.textof {
+    position: absolute;
+    width: 575px;
+    height: 146px;
+    left: 150px;
+    top: 3150px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.avatar {
+    position: absolute;
+    width: 163px;
+    height: 146px;
+    left: 1110px;
+    top: 3150px;
+}
+
+.img1 {
+    position: absolute;
+    width: 1140px;
+    height: 464px;
+    left: 150px;
+    top: 3497px;
+}
+
+.img2 {
+    position: absolute;
+    width: 1140px;
+    height: 464px;
+    left: 150px;
+    top: 4164px;
+}
+
+.img3 {
+    position: absolute;
+    width: 1140px;
+    height: 464px;
+    left: 150px;
+    top: 4831px;
+}
+
+.img4 {
+    position: absolute;
+    width: 1140px;
+    height: 464px;
+    left: 150px;
+    top: 5498px;
+}
+
+.img5 { 
+    position: absolute;
+    width: 1140px;
+    height: 464px;
+    left: 150px;
+    top: 6165px;
+}
+
+#bloco5 {
+    position: absolute;
+    width: 1440px;
+    height: 284px;
+    left: 0px;
+    top: 6850px;
+    
+    background: #008B8B;
+}
+
+.logo1 {
+    position: absolute;
+    width: 179px;
+    height: 66px;
+    left: 150px;
+    top: 110px;
+}
+
+.logo2 {
+    position: absolute;
+    width: 125px;
+    height: 66px;
+    left: 614px;
+    top: 110px;
+}
+
+.logo3 {
+    position: absolute;
+    width: 141px;
+    height: 37px;
+    left: 1078px;
+    top: 130px;
+}
