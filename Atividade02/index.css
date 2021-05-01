@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #01498F;
+    z-index: -2;
+}
+
+#header {
+    position: absolute;
+    width: 1440px;
+    height: 103px;
+    background: linear-gradient(180deg, #014180 0%, rgba(1, 77, 153, 0.43) 100%);  
+}
+  
+#header .logo img {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#main {
+    position: absolute;
+    height: 480px;
+    top: 160px;
+    width: 100%;
+}
+  
+#main .container_interno {
+    position: absolute;
+    width: 1440px;
+}
+  
+#main .container_interno .img_computer {
+    display: flex;
+    justify-content: center;
+}
+  
+#main .container_interno .caixa_texto {
+    position: absolute;
+    left: 68%;
+    right: 8%;
+    top: 24%;
+    bottom: 63%;
+    color: #fff;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 150%;
+}
+  
+#design {
+    position: absolute;
+    top: 150px;
+    left: 40px; 
+}
+  
+#footer {
+    position: absolute;
+    width: 1440px;
+    height: 176px;
+    bottom: 0;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #01498F 0%, #013A73 100%);
+}
+  
+#footer .etapa {
+    width: 280px;
+    height: 100%;
+}
+  
+#footer .etapa.dev {
+    float: left;
+    position: absolute;
+    left: 110px;
+    bottom: 20px;
+}
+  
+#footer .etapa.dev img {
+    position: absolute;
+    bottom: 70%;
+    left: 8%;
+}
+  
+#footer .etapa.dev p {
+    position: absolute;
+    height: 57px;
+    width: 244px;
+    bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #C0CCDA;
+}
+  
+#footer .etapa.briefing { 
+    float: right;
+    position: absolute;
+    right: 110px;
+    bottom: 20px;
+}
+  
+#footer .etapa.briefing img {
+    position: absolute;
+    bottom: 70%;
+    right: 8%;
+}
+  
+#footer .etapa.briefing p {
+    position: absolute;
+    height: 57px;
+    width: 250px;
+    bottom: 10px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 19px;
+    text-align: center;
+    color: #C0CCDA;
+}
+  
+.componente {
+    position: absolute;
+    font-size: 1.6rem;
+    margin: 0;
+    bottom: -20px;
+    color: #C0CCDA;
+    font-weight: 300;
+}
+  
+.titulo-1 {
+    position: absolute;
+    float: left;
+    left: 135px;
+}
+  
+.titulo-2 {
+    float: right;
+    position: absolute;
+    right: 150px;
+}
+  
+.componente::after {
+    content: '';
+    display: block;
+    width: 165px;
+    height: 1px;
+    background-color: #3a71a9;
+}
+  
+.titulo-1::before {
+    content: '';
+    position: relative;
+    top: 37px;
+    display: block;
+    width: 120px;
+    height: 1px ;
+    background-color: #3a71a9;
+}
+  
+.titulo-2::before {
+    content: '';
+    position: relative;
+    top: 37px;
+    left: 40px;
+    display: block;
+    width: 125px;
+    height: 1px ;
+    background-color: #3a71a9;
+}
+
+#direita {
+    position: absolute;
+    top: 310px;
+    right: 0;
+    opacity: 0.25;
+}
+  
+#esquerda {
+    position: absolute;
+    top: 315px;
+    left: 180px;
+    opacity: 0.25;
+}
+
