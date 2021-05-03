@@ -1,28 +1,281 @@
-/** configurações gerais */
-body{}
+
+*{
+  padding:0;
+  margin:0;
+
+}
+body{
+  font-family: 'Lato', sans-serif;
+  position:absolute;
+  color:#FFFFFF;
+  
+  
+}
 
 
-  /** configurações da header */
-#header{}
-#header .link-logo{}
-#header .link-logo .logo{}
+  
+#header{
+  width:1440px;
+  height:103px; 
+  position:relative;
+}
+
+.container{
+  width:1440px;
+  height: 1024px;
+  background:#01498F;
+  position:relative;
+  top:200px;
+  left:50%;
+  
+  
+  overflow: hidden;
+  
+  
+  
+}
+
+#header .link-logo{
+  position:absolute;
+  top:23px;
+  left:59px;
+}
 
 
 
-  /** configurações do conteudo principal */
-#main{}
-#main .container-interno{}
-#main .container-interno .img-computador{}
-#main .container-interno .caixa-texto{}
+
+  
+  #main{
+    position: relative;
+    height:547px;
+    width: 100%;
+  }
+  .seta-fundo-1{ 
+    
+
+  }
+
+  
+
+  .texto{
+    width:341px;
+    height:128px;
+    position: absolute;
+    top:248px;
+    left:976px;
+    font-weight:300;
+    font-size:21px;
+    line-height: 31.5px;
+  }
+
+
+  strong{
+    font-weight: bold;
+    
+  }
+
+  .design{
+    position: absolute;
+    width: 84px;
+    height:29px;
+    position:absolute;
+    top:407px;
+    left:1012px;
+    font-weight: bold;
+    font-size:24px;
+    color:#F9FAFC;
+  }
+
+  .seta-1{
+    position:absolute;
+    width: 32.34px;
+    height: 26.77px;
+    top:411.76px;
+    left:975px;
+  }
+
+
+  .imagem-computador{
+    width:458px;
+    height:442.11;
+    position: absolute;
+    top:194px;
+    left:464px;
+  }
+  
+  
+  .img-dev{
+    position:absolute;
+    bottom:130px;
+    left:157px;
+    width: 200px;
+    height: 180.98px;
+    opacity: 80%;
+  }
+  
+
+  
+  
+  
+  
 
 
 
-  /** configurações do conteudo rodapé */
-#footer{}
-#footer .etapa{}
 
-#footer .etapa.dev{}
-#footer .etapa.dev::before{}
-#footer .etapa.dev::after{}
 
-#footer .etapa.briefing{}
+
+
+  
+#footer{
+  width:100%;
+  height: 376px;
+  position: relative;
+  background: linear-gradient(#01498f, #013a73);
+  
+}
+
+#footer .img-dev{
+  position: absolute;
+  align-items: center;
+  top:80px;
+  left:157px;
+  height:180px;
+  width: 200px;
+}
+
+#footer .texto-bottom-left{
+  height: 57px;
+  width: 244px;
+  position:absolute;
+  top:280px;
+  left:139px;
+  text-align: center;
+  font-weight: 300;
+  font-size:16px;
+  color: #C0CCDA;
+}
+
+#footer .etapa-dev{
+  position: absolute;
+  top: 0;
+  left:126px;
+  font-size:21px;
+  Line-height:25.2px;
+  font-weight: 300;
+  color:#F9FAFC;
+}
+
+#footer .etapa-planejamento{
+  float:right;
+  height:25px;
+  width: 135px;
+  position: absolute;
+  right:132px;
+  top:13px;
+  Line-height:25.2px;
+  font-weight: 300;
+  font-size:21px;
+  color:#F9FAFC;
+}
+
+#footer #texto-planejamento{
+  float:right;
+  width:244px;
+  height: 57px;
+  text-align: center;
+  position: absolute;
+  top:292px;
+  right: 131px;
+  font-weight: 300;
+  font-size:16px;
+  color: #C0CCDA;
+
+}
+
+#footer .img-briefing{
+  width: 250px;
+  height: 155.29px;
+  float:right;
+  position: absolute;
+  right:122px;
+  bottom: 115.71px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .etapa-dev::before{
+  content: '';
+  position: absolute;
+  top:30px;
+  left:0;
+  height: 1px;
+  width: 133px;
+  background-color:#e5e9f2;
+
+  
+}
+#footer .etapa-dev::after{
+  content: '';
+  position: absolute;
+  top:33px;
+  left:0;
+  height: 1px;
+  width: 103px;
+  background-color:#e5e9f2;
+  margin-top:4px;
+
+}
+
+#footer .etapa-planejamento::before{
+  content: '';
+  position: absolute;
+  top:30px;
+  right:0;
+  height: 1px;
+  width: 133px;
+  background-color:#e5e9f2;
+}
+
+#footer .etapa-planejamento::after{
+  content: '';
+  position: absolute;
+  top:33px;
+  right:31px;
+  height: 1px;
+  width: 103px;
+  background-color:#e5e9f2;
+  margin-top:4px;
+}
+
+
+
+.seta-fundo-1 img{
+  width:463.78px;
+  height: 383.93px;
+  position: absolute;
+  top: 321.93px;
+  right:779.09px;
+  border-radius:1px;
+  Opacity:0.25;
+
+  
+}
+
+.seta-fundo-2 img {
+  
+  position: absolute;
+  top: 430px;
+  right:60px;
+  border-radius:1px;
+  Opacity:0.25;
+}
