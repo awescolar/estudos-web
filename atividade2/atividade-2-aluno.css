@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+}
+
+#header {
+  width: 1440px;
+  height: 103px; 
+  background: linear-gradient(180deg, #014180 0%, rgba(1, 77, 153) 100%);
+}
+
+.logo {
+  position: relative;
+  top: 23px;
+  left: 59px;
+}
+
+#main {
+  width: 1440px;
+  height: 745px;
+  background: #01498F;
+}
+
+.seta1 {
+  position: absolute;
+  top: 227px;
+}
+.seta2 {
+  position: absolute;
+  top: 177px;
+  left: 963px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.texto-central {
+  font-size: 21px;
+  font-weight: 300;
+  width: 341px;
+  height: 128px;
+
+  position: absolute;
+  top: 248px;
+  left: 976px;
+}
+
+.img-computador {
+  position: relative;
+  top: 91px;
+  left: 464px;
+}
+
+.design {
+  position: absolute;
+  top: 407px;
+  left: 1012px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.seta-amarela {
+  position: absolute;
+  top: 398px;
+  left: 976px;
+}
+
+#footer {
+  width: 1440px;
+  height: 176px;
+  background: linear-gradient(180deg, #01498F 0%, #013A73 100%);
+}
+
+.etapa {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.etapa section {
+  width: 244px;
+  height: 57px;
+  text-align: center;
+}
+
+.dev .img-dev {
+  position: absolute;
+  left: 157px;
+  top: 713px;
+}
+
+.briefing .img-briefing {
+  position: absolute;
+  top: 753px;
+  left: 1075px;
+}
+
+
+.briefing div {
+  position: absolute;
+  top: 661px;
+  left: 1173px;
+}
+
+.borda-planejamento {
+  position: absolute;
+  top: 692px;
+  left: 1174px;
+}
+
+.briefing section {
+  position: absolute;
+  top: 935px;
+  left: 1072px;
+}
+
+.etapa div {
+  font-size: 21px;
+  color: #F9FAFC;
+}
+
+.dev div {
+  position: absolute;
+  top: 648px;
+  left: 126px;
+}
+
+.borda-dev {
+  position: absolute;
+  top: 677px;
+  left: 126px;
+}
+
+.dev section {
+  position: absolute;
+  top: 923px;
+  left: 139px;
+}
