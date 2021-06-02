@@ -15,40 +15,40 @@ Abaixo temos uma lista com todas as atividades que irão ocorrer, segue:
 ### Entregas confirmadas
 | Aluno | Atv 1 | Atv 2 | Atv 3 (grupo) | Grande Desafio |
 | ------------- |:----------:|:-----------:|:-------------:|:----------------:|
-Adriel Santos | `análise` | `análise` | `análise` | no prazo |
-Agadama Talyta | `análise` | `análise` | `análise` | no prazo |
-Alice Flayse | `análise` | `análise` | `análise` | no prazo |
-Ana Alyce | `análise` | `análise` | `análise` | no prazo |
-Andreza Gabriely | **OK** | `análise` | `análise` | no prazo |
-Antonio Marcio | `análise` | `análise` | `análise` | no prazo |
-Antônio Ribeiro | **OK** | `análise` | `análise` | no prazo |
-Caio Eduardo | **OK** | `análise` | `análise` | no prazo |
-CARLOS HENRIQUE | **OK** | `análise` | `análise` | no prazo |
-Cauã Morais | **OK** | `análise` | `análise` | no prazo |
-Débora de Andrade | **OK** | `análise` | `análise` | no prazo |
-Emilly Natacha | **OK** | `análise` | `análise` | no prazo |
-Erick Inácio | **OK** | `análise` | `análise` | no prazo |
-Francisco Hudson | `análise` | `análise` | `análise` | no prazo |
-Franklin Felipe | `análise` | `análise` | `análise` | no prazo |
-Gabriel Henrique | `análise` | `análise` | `análise` | no prazo |
-GABRIELA LOPES | `análise` | `análise` | `análise` | no prazo |
-Hiara Maria | **OK** | `análise` | `análise` | no prazo | no prazo |
-Janielly da Silva | `análise` | `análise` | `análise` | no prazo |
-Janyelly Sousa | **OK** | `análise` | `análise` | no prazo |
-Jefferson Thawan | `análise` | `análise` | `análise` | no prazo |
-Jennifer Beatriz | **OK** | `análise` | `análise` | no prazo |
-JOSE ALLAN | `análise` | `análise` | `análise` | no prazo |
-Julio kawann | **OK** | `análise` | `análise` | no prazo |
-LEONARDO DE BARROS | `análise` | `análise` | `análise` | no prazo |
-Letícia Peixoto | **OK** | `análise` | `análise` | no prazo |
-Liedeson Moraes | **OK** | `análise` | `análise` | no prazo |
-Lucas Mateus | `análise` | `análise` | `análise` | no prazo |
-LUIZ FELIPE | **OK** | `análise` | `análise` | no prazo |
-Maria Clara | `análise` | `análise` | `análise` | no prazo |
-Maria Eduarda | **OK** | `análise` | `análise` | no prazo |
-Maria José | `análise` | `análise` | `análise` | no prazo |
-Marlon Raphael | `análise` | `análise` | `análise` | no prazo |
-Melyssa Adrielle | **OK** | `análise` | `análise` | no prazo |
-PEDRO FELIPE | `análise` | `análise` | `análise` | no prazo |
-Pedro Kaiber | `análise` | `análise` | `análise` | no prazo |
-Zadoque Teófilo | `análise` | `análise` | `análise` | no prazo |
+Adriel Santos | **OK** | **OK** | **OK** | **OK** |
+Agadama Talyta | **OK** | **OK** | **OK** | **OK** |
+Alice Flayse | **OK** | **OK** | **OK** | **OK** |
+Ana Alyce | **OK** | **OK** | **OK** | **OK** |
+Andreza Gabriely | **OK** | **OK** | **OK** | **OK** |
+Antonio Marcio | **OK** | **OK** | **OK** | **OK** |
+Antônio Ribeiro | **OK** | **OK** | **OK** | **OK** |
+Caio Eduardo | **OK** | **OK** | **OK** | **OK** |
+CARLOS HENRIQUE | **OK** | **OK** | **OK** | **OK** |
+Cauã Morais | **OK** | **OK** | **OK** | **OK** |
+Débora de Andrade | **OK** | **OK** | **OK** | **OK** |
+Emilly Natacha | **OK** | **OK** | **OK** | **OK** |
+Erick Inácio | **OK** | **OK** | **OK** | **OK** |
+Francisco Hudson | **OK** | **OK** | **OK** | **OK** |
+Franklin Felipe | **OK** | **OK** | **OK** | **OK** |
+Gabriel Henrique | **OK** | **OK** | **OK** | **OK** |
+GABRIELA LOPES | **OK** | **OK** | **OK** | **OK** |
+Hiara Maria | **OK** | **OK** | **OK** | **OK** | **OK** |
+Janielly da Silva | **OK** | **OK** | **OK** | **OK** |
+Janyelly Sousa | **OK** | **OK** | **OK** | **OK** |
+Jefferson Thawan | **OK** | **OK** | **OK** | **OK** |
+Jennifer Beatriz | **OK** | **OK** | **OK** | **OK** |
+JOSE ALLAN | **OK** | **OK** | **OK** | **OK** |
+Julio kawann | **OK** | **OK** | **OK** | **OK** |
+LEONARDO DE BARROS | **OK** | **OK** | **OK** | **OK** |
+Letícia Peixoto | **OK** | **OK** | **OK** | **OK** |
+Liedeson Moraes | **OK** | **OK** | **OK** | **OK** |
+Lucas Mateus | **OK** | **OK** | **OK** | **OK** |
+LUIZ FELIPE | **OK** | **OK** | **OK** | **OK** |
+Maria Clara | **OK** | **OK** | **OK** | **OK** |
+Maria Eduarda | **OK** | **OK** | **OK** | **OK** |
+Maria José | **OK** | **OK** | **OK** | **OK** |
+Marlon Raphael | **OK** | **OK** | **OK** | **OK** |
+Melyssa Adrielle | **OK** | **OK** | **OK** | **OK** |
+PEDRO FELIPE | **OK** | **OK** | **OK** | **OK** |
+Pedro Kaiber | **OK** | **OK** | **OK** | **OK** |
+Zadoque Teófilo | **OK** | **OK** | **OK** | **OK** |
