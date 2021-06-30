@@ -1,0 +1,136 @@
+.corpo{
+	background: #01498f;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.div-logo{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: 25px;
+}
+
+#imagem-logo{
+	width: 260px;
+	height: 45px;
+	z-index: 1;
+}
+
+.div-carinha-do-comp{
+	float: left;
+	
+}
+
+.div-brief{
+	float: right;
+}
+
+.div-computador{
+	position: absolute;
+	left: 500px;
+	top: 150px;
+}
+
+#imagem-comp{
+	width: 300px;
+	height: 300px;  
+}
+
+.pai{
+
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.planejamento{
+	position: absolute;
+	bottom: 300px;
+	right: 10px;
+	display: inline-block;
+	text-align: right;
+	color: white;
+	font-size: 20px;
+}
+
+.barra{
+	display: inline-block;
+	background-color: white;
+	height: 1px;
+	float: right;	
+	margin-top: 5px;
+	width: 100%; 
+}
+
+.barra2{
+	width: 75%;
+	margin-top: 3px; 
+}
+
+.dev{
+	position: absolute;
+	left: 10px;
+	bottom: 300px;
+	color: white;
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+}
+
+.barra5{
+	display: inline-block;
+	background-color: white;
+	height: 1px;
+	float: left;
+	margin-top: 1px;
+	width: 100%;
+}
+
+.barra4{
+	width: 75%;
+	margin-top: 3px;
+}
+
+#text-de-baixo{
+	color: white;
+	text-align: center;
+
+}
+
+#text-de-baixo2{
+	color: white;
+	text-align: center;
+}
+
+#text-do-lado{
+	position: fixed;
+	margin-left: 30px;
+	color: white;
+	display: inline-block;
+}
+
+#text-do-lado2{
+	position: relative;
+	bottom: 120px;
+	margin-left: 65px;
+	color: white;
+	display: inline-block;
+}
+
+#imagem-seta-comp{
+	position: fixed;
+	bottom: 310px;
+	margin-left: 30px;
+}
+
+#seta-1{
+	float: right;
+	transform: rotate(50grad);	
+}
+
+#seta-2{
+	float: left;
+
+}
+
